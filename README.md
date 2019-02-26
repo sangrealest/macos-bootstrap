@@ -1,5 +1,5 @@
 # macos-bootstrap
-#####This repo is used to init a new macos env ansible. It will install brew and some useful tools, install zsh, tmux, config powerline status. After installed, all zsh, tmux and vim will use my best practise profiles. It's awesome ~~~!!!
+##### This repo is used to init a new macos env ansible. It will install brew and some useful tools, install zsh, tmux, config powerline status. After installed, all zsh, tmux and vim will use my best practise profiles. It's awesome ~~~!!!
 
 ##### If you want to customerize your softwares, edit roles/homebrew/vars/main.yml file.
 ```
