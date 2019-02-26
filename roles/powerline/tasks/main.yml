@@ -1,0 +1,16 @@
+---
+- name: Install powerline
+  pip:
+    name: powerline-status
+    extra_args: --user
+
+- name: Downloading powerline fonts
+  git:
+    repo: https://github.com/powerline/fonts.git 
+    depth: 1
+    dest: "~/"
+- name: Installing powerline fonts
+  shell: install.sh
+    args:
+      chdir: "~/fonts/
+

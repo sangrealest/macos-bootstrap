@@ -1,0 +1,5 @@
+---
+- name: Copy vimrc to home directory
+  copy:
+    src: vimrc
+    dest: "~/.vimrc"

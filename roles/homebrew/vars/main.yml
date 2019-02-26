@@ -1,0 +1,45 @@
+---
+# list of applications to install
+
+# homebrew applications
+applications:
+  - autojump
+  - autoconf
+  - automake
+  - bash-completion
+  - cmake
+  - curl
+  - findutils
+  - git
+  - tree
+  - wget
+  - kubectl
+  - kubernetes-helm
+  - terraform
+  - awscli
+  - openssl
+  - freerdp
+  - gnu-sed
+  - gnu-tar
+  - gnupg
+  - jq
+  - openssh
+  - md5sha1sum
+  - pyenv-virtualenv
+  - ripgrep
+  - reattach-to-user-namespace
+  - rsync
+  - ssh-copy-id
+  - tmux
+  - vim
+  - zsh
+  - zsh-completions
+
+# homebrew cask applications
+cask_applications:
+  - dash
+  - google-cloud-sdk
+  - google-chrome
+  - google-backup-and-sync
+  - iterm2
+  - docker

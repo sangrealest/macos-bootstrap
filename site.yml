@@ -1,0 +1,9 @@
+---
+- hosts: all
+  roles:
+  - homebrew
+  - zsh
+  - powerline
+  - vim
+  - tmux
+  - ssh_config

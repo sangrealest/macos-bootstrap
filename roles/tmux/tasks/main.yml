@@ -1,0 +1,5 @@
+---
+- name: Copy tmuxrc to home directory
+  copy:
+    src: tmux.conf
+    dest: "~/.tmux.conf"
