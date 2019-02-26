@@ -8,7 +8,7 @@
 
 - name: copy ssh config
   copy:
-    src: files/ssh/config
+    src: config
     dest: "~/.ssh/config"
     mode: 0644
 

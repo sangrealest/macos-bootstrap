@@ -1,0 +1,85 @@
+Host    bastion
+    Hostname    shankerlee.asuscomm.com
+    User    shanker
+    Port    1199
+
+Host   gcp 
+    Hostname    35.220.195.239
+    User    shanker
+    Port    22
+    IdentityFile    ~/.ssh/gcp.pem
+
+Host    wifi
+    Hostname    192.168.1.5
+    User    root
+    Port    22
+
+Host    rhlab
+    Hostname    ravshello.gsslab.pek.redhat.com
+    User    chunli
+
+Host    *github.com
+    Hostname    github.com
+    IdentityFile  ~/.ssh/awsjp.pem
+    ProxyCommand none
+
+Host    lo
+    Hostname    localhost
+    User    Shanker
+    IdentityFile    ~/.ssh/shanker.pri
+
+#Host proxy_test
+#    Hostname 192.168.122.120
+#   IdentityFile    ~/.ssh/id_rsa
+#   ForwardAgent yes
+#   ForwardX11 yes
+#   Port 22
+#    KeepAlive yes
+#   TCPKeepAlive yes
+#   ConnectTimeout 0
+#   ServerAliveInterval 3000
+#   ServerAliveCountMax 5
+#
+#   !!!IMPORTANT!!!
+#   if your bastion host is inclued in your jump network, you should use this to the bastion
+#   ProxyCommand none
+#Host gateway.example.org
+#        ProxyCommand none
+#
+#Host *.example.org my-private-host
+#   ProxyCommand ssh -q myuser@gateway.example.org nc -w 60 %h %p
+#
+
+#Host 192.168.122.*
+    ForwardAgent yes
+#    ProxyCommand ssh -q proxy_test nc -w 60 %h %p
+#
+#     or use below
+#     ProxyCommand ssh -W %h:%p proxy_test
+#     
+#     or use openssh 7.3 release
+#     ProxyJump root@proxy_test:22
+#     
+#   IdentityFile    ~/.ssh/id_rsa
+
+#Host ec2*
+#  User ec2-user
+#  IdentityFile ~/.ssh/3095key.pem
+#  ForwardAgent yes 
+#  StrictHostKeyChecking no
+#  ProxyCommand ssh  bastion.3095.example.opentlc.com -W %h:%p
+
+Host *
+	ForwardAgent yes
+	ForwardX11 yes
+	Port 22
+#	IdentityFile    ~/.ssh/shanker.pri
+	ServerAliveInterval 3000
+	ServerAliveCountMax 5
+	ConnectTimeout 0
+	GSSAPIAuthentication no
+	TCPKeepAlive yes
+	ControlMaster     auto
+	ControlPath     ~/.ssh/%r@%h:%p
+	ControlPersist     1d
+    StrictHostKeyChecking no
