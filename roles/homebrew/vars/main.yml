@@ -38,6 +38,7 @@ applications:
 # homebrew cask applications
 cask_applications:
   - dash
+  - macdown
   - google-cloud-sdk
   - google-chrome
   - google-backup-and-sync
