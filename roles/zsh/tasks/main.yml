@@ -19,7 +19,7 @@
 
 - name: Setting default shell
   shell: "chsh -s $(which zsh) {{ ansible_ssh_user }}"
-  sudo: True
+  become: True
 
 - name: Configuring oh-my-zsh
   copy:
