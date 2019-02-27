@@ -43,4 +43,6 @@ cask_applications:
   - google-chrome
   - google-backup-and-sync
   - iterm2
-  - docker
+#  - docker
+  - syncthing-app
+
