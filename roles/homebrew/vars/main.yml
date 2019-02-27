@@ -45,4 +45,5 @@ cask_applications:
   - iterm2
 #  - docker
   - syncthing-app
+  - the-unarchiver
 
