@@ -39,13 +39,18 @@ applications:
 
 # homebrew cask applications
 cask_applications:
+  - alfred
+  - aliwangwang
   - dash
   - macdown
-  - google-cloud-sdk
   - google-chrome
   - google-backup-and-sync
   - iterm2
-  - docker
+  - syncthing-app
+  - shadowsocksx-ng
+  - the-unarchiver
+
+
 ```
 ### How to start
 

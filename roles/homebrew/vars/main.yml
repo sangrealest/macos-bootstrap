@@ -44,7 +44,6 @@ cask_applications:
   - google-chrome
   - google-backup-and-sync
   - iterm2
-#  - docker
   - syncthing-app
   - shadowsocksx-ng
   - the-unarchiver
