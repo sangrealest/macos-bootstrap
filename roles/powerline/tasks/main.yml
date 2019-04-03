@@ -10,7 +10,7 @@
     depth: 1
     dest: "~/"
 - name: Installing powerline fonts
-  shell: install.sh
+  shell: /bin/sh install.sh
   args:
     chdir: "~/fonts/"
 
