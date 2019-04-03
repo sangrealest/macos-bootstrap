@@ -8,7 +8,7 @@
   git:
     repo: https://github.com/powerline/fonts.git 
     depth: 1
-    dest: "~/"
+    dest: "~/fonts"
 - name: Installing powerline fonts
   shell: /bin/sh install.sh
   args:
