@@ -11,6 +11,6 @@
     dest: "~/"
 - name: Installing powerline fonts
   shell: install.sh
-    args:
-      chdir: "~/fonts/
+  args:
+    chdir: "~/fonts/"
 
