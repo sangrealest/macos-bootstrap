@@ -29,5 +29,5 @@
 - name: Copy zsh-autosuggestions
   git:
     repo: https://github.com/sangrealest/zsh-autosuggestions.git
-    dest: "~/.oh-my-zsh/custom/plugins/"
+    dest: "~/.oh-my-zsh/custom/plugins/zsh-autosuggestions"
   
