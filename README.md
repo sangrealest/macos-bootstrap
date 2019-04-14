@@ -72,5 +72,5 @@ $ansible-playbook -i hosts site.yml
 ### Powerline setup
 After you finished all the steps, open your item2 profile, chose one of the powerline fonts.
 
-![Font](https://github.com/sangrealest/macos-bootstrap/blob/master/images/font.png）
+![Font](https://raw.githubusercontent.com/sangrealest/macos-bootstrap/master/images/font.png）
 
