@@ -69,5 +69,8 @@ $bash bootstrap.sh
 $ansible-playbook -i hosts site.yml
 ```
 
+### Powerline setup
+After you finished all the steps, open your item2 profile, chose one of the powerline fonts.
+
 
 
