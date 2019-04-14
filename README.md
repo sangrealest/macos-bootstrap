@@ -1,6 +1,11 @@
 # macos-bootstrap
 ##### This repo is used to init a new macos env ansible. It will install brew and some useful tools, install zsh, tmux, config powerline status. After installed, all zsh, tmux and vim will use my best practise profiles. It's awesome ~~~!!!
 
+### Tested ENV:
+- os: macOS Mojave 10.14.4
+- ansible: 2.7.9
+- It would better if you ladder to TRUE INTERNET!
+
 ##### If you want to customerize your softwares, edit roles/homebrew/vars/main.yml file.
 ```
 # homebrew applications
@@ -15,12 +20,11 @@ applications:
   - git
   - tree
   - wget
-  - kubectl
-  - kubernetes-helm
-  - terraform
-  - awscli
+#  - kubectl
+#  - kubernetes-helm
+#  - terraform
+#  - awscli
   - openssl
-  - freerdp
   - gnu-sed
   - gnu-tar
   - gnupg

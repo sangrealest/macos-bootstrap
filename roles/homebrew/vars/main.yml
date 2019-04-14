@@ -13,6 +13,10 @@ applications:
   - git
   - tree
   - wget
+#  - kubectl
+#  - kubernetes-helm
+#  - terraform
+#  - awscli
   - openssl
   - gnu-sed
   - gnu-tar
