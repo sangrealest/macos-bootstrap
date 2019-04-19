@@ -66,7 +66,7 @@ $bash bootstrap.sh
 
 - Run the playbook to init the env
 ```
-$ansible-playbook -i hosts site.yml
+$ansible-playbook -i hosts site.yml --ask-become-pass
 ```
 
 ### Powerline setup

@@ -31,7 +31,6 @@ applications:
   - ssh-copy-id
   - tmux
   - vim
-  - zsh
   - zsh-completions
 
 # homebrew cask applications
