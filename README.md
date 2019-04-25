@@ -5,7 +5,7 @@
 - os: macOS Mojave 10.14.4
 - ansible: greater than 2.6
 - homebrew: 2.0.6
-- It would better if you ladder to TRUE INTERNET!
+- For users in China, It would better if you ladder to TRUE INTERNET!
 
 ##### If you want to customerize your softwares, edit roles/homebrew/vars/main.yml file.
 ```
