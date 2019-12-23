@@ -25,7 +25,7 @@ applications:
 #  - kubernetes-helm
 #  - terraform
 #  - awscli
-  - openssl
+#  - openssl
   - gnu-sed
   - gnu-tar
   - gnupg
@@ -44,16 +44,16 @@ applications:
 
 # homebrew cask applications
 cask_applications:
-  - alfred
-  - aliwangwang
-  - dash
-  - macdown
-  - google-chrome
-  - google-backup-and-sync
-  - iterm2
-  - syncthing-app
-  - shadowsocksx-ng
-  - the-unarchiver
+#  - alfred
+#  - aliwangwang
+#  - dash
+#  - macdown
+#  - google-chrome
+#  - google-backup-and-sync
+#  - iterm2
+#  - syncthing-app
+#  - shadowsocksx-ng
+#  - the-unarchiver
 
 
 ```
