@@ -3,7 +3,7 @@
 
 ### Suggested ENV:
 - os: macOS Mojave 10.14.4
-- ansible: greater than 2.6
+- ansible: greater than 2.9.2
 - homebrew: 2.0.6
 - For users in China, It would better if you ladder to TRUE INTERNET!
 
@@ -46,14 +46,16 @@ applications:
 cask_applications:
 #  - alfred
 #  - aliwangwang
-#  - dash
+  - dash
 #  - macdown
 #  - google-chrome
 #  - google-backup-and-sync
-#  - iterm2
+  - iterm2
 #  - syncthing-app
 #  - shadowsocksx-ng
-#  - the-unarchiver
+  - the-unarchiver
+  - wechat
+  - youdaodict
 
 
 ```
