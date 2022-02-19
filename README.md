@@ -1,5 +1,5 @@
 # macos-bootstrap
-##### This repo is used to init a new macos env ansible. It will install brew and some useful tools, install zsh, tmux, config powerline status. After installed, all zsh, tmux and vim will use my best practise profiles. It's awesome ~~~!!!
+##### This repo is used to init a new macos dev env. It will install brew and some useful tools, such as zsh, tmux, config powerline status. After the installation, the script will apply my best practise zsh, tmux and vim profiles. Enjoy it~~~!!!
 
 ### Suggested ENV:
 - os: macOS Mojave 10.14.4
