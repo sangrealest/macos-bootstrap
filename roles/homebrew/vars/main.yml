@@ -37,12 +37,15 @@ applications:
 cask_applications:
 #  - alfred
 #  - aliwangwang
-#  - dash
+  - dash
 #  - macdown
 #  - google-chrome
 #  - google-backup-and-sync
-#  - iterm2
+  - iterm2
 #  - syncthing-app
 #  - shadowsocksx-ng
-#  - the-unarchiver
+  - the-unarchiver
+  - wechat
+  - youdaodict
+
 
