@@ -11,4 +11,4 @@ fi
 sudo pip install --upgrade pip
 
 echo "Installing Ansible"
-sudo pip install --upgrade ansible=2.9.2 
+sudo pip install --upgrade ansible==2.9.2 
